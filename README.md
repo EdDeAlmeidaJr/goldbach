@@ -30,7 +30,7 @@ The goal of these Pascal programs is to provide means to research the Goldbach's
 
 ## Improvements
 
-This is **collaborative research**. So, if you find a way to improve the code or the method involved, please feel free to fork this repository and send me your pull requests. I only ask you to send me an email with some information about you, so I may add you to this page and give you the appropriate credits.
+This is **collaborative research**. So, if you find a way to improve the code or the method involved, please feel free to fork this repository and send me your pull requests. I only ask you to send me an email (edvaldoajunior@gmail.com) with some information about you, so I may add you to this page and give you the appropriate credits.
 
 ## Research team
 
@@ -40,3 +40,7 @@ This is **collaborative research**. So, if you find a way to improve the code or
   - MSc - (Differential Geometry) Federal Universityof Ceará & Westfield College (1995)
   - PhD - (Dynamical Systems) IMPA & Massachusetts Institute of TEchnology (2001)
   - Brazilian, 50 years old, married to Daiely, father to Dionysio (3-yo), writer with three published books.
+  - Email: edvaldoajunior@gmail.com
+  - Website: http://eddealmeida.herokuapp.com
+  - Phone: +55-41-3501-6584
+
