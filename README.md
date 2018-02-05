@@ -4,7 +4,7 @@
 
 On 7 June 1742, the German mathematician Christian Goldbach wrote a letter to Leonhard Euler (letter XLIII)[6] in which he proposed the following conjecture:
 
-```Every integer which can be written as the sum of two primes, can also be written as the sum of as many primes as one wishes, until all terms are units.```
+> Every integer which can be written as the sum of two primes, can also be written as the sum of as many primes as one wishes, until all terms are units.
 
 He then proposed a second conjecture in the margin of his letter:
 
