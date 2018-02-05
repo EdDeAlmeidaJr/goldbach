@@ -10,7 +10,7 @@ He then proposed a second conjecture in the margin of his letter:
 
 He considered 1 to be a prime number, a convention subsequently abandoned. The two conjectures are now known to be equivalent, but this did not seem to be an issue at the time. A modern version of Goldbach's marginal conjecture is:
 
-```***Every integer greater than 5 can be written as the sum of three primes.***```
+```**Every integer greater than 5 can be written as the sum of three primes.**```
 
 Euler replied in a letter dated 30 June 1742, and reminded Goldbach of an earlier conversation they had ("…so Ew vormals mit mir communicirt haben…"), in which Goldbach remarked his original (and not marginal) conjecture followed from the following statement
 
