@@ -1,5 +1,7 @@
 # Goldbach's Conjecture
 
+### About the problem
+
 On 7 June 1742, the German mathematician Christian Goldbach wrote a letter to Leonhard Euler (letter XLIII)[6] in which he proposed the following conjecture:
 
 ```Every integer which can be written as the sum of two primes, can also be written as the sum of as many primes as one wishes, until all terms are units.```
@@ -21,3 +23,21 @@ which is, thus, also a conjecture of Goldbach. In the letter dated 30 June 1742,
 ```"Dass … ein jeder numerus par eine summa duorum primorum sey, halte ich für ein ganz gewisses theorema, ungeachtet ich dasselbe nicht demonstriren kann." ("That … every even integer is a sum of two primes, I regard as a completely certain theorem, although I cannot prove it.")```
 
 Goldbach's third version (equivalent to the two other versions) is the form in which the conjecture is usually expressed today. It is also known as the "strong", "even", or "binary" Goldbach conjecture, to distinguish it from a weaker conjecture, known today variously as the Goldbach's weak conjecture, the "odd" Goldbach conjecture, or the "ternary" Goldbach conjecture. This weak conjecture asserts that all odd numbers greater than 7 are the sum of three odd primes, and appears to have been proved in 2013. The weak conjecture is a corollary of the strong conjecture, as, if n – 3 is a sum of two primes, then n is a sum of three primes. The converse implication, and the strong Goldbach conjecture remain unproven.
+
+### About these programs
+
+The goal of these Pascal programs is to provide means to research the Goldbach's Conjecture by the method I am working on since 2004.
+
+### Improvements
+
+This is **collaborative research**. So, if you find a way to improve the code or the method involved, please feel free to fork this repository and send me your pull requests. I only ask you to send me an email with some information about you, so I may add you to this page and give you the appropriate credits.
+
+### Research team
+
+- Ed de Almeida
+  
+  - BSc - Federal University of Rio de Janeiro (1984)
+  - MSc - (Differential Geometry) Federal Universityof Ceará & Westfield College (1995)
+  - PhD - (Dynamical Systems) IMPA & Massachusetts Institute of TEchnology (2001)
+
+ 
