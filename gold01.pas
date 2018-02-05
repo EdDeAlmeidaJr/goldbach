@@ -23,7 +23,7 @@ end;
 begin
     for i := 1 to 50 do
     begin
-		n = Ni(i);	
+		n := Ni(i);	
 		WriteLn('i = ', i:6, '=>':8,'n = ',n:6);
     end
 end.
