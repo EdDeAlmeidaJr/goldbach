@@ -1,30 +1,49 @@
 program Gold01;
 
 var
-    i, j, n: integer;
+    i, j, k,
+    n, g, d,
+    s1, s2 : integer;
 
 
-function s(i: integer) : integer;
+function Si(i: integer) : integer;
 begin
-    s := 3 + (2 * i);
+    Si := 3 + (2 * i);
 end;
 
 
-function g(n: integer) : integer;
+function Gn(n: integer) : integer;
 begin
-    g := (n - 4) div 2;
+    Gn := (n - 6) div 2;
 end;
 
-function Ni(i: integer) : integer;
-begin
-	Ni:= (2 * i) + 4;
-end;
 
 begin
-    for i := 0 to 50 do
+    for i := 3 to 100 do
     begin
-		n := Ni(i);	
-		WriteLn('i = ', i:6, ' => ':8,'n = ',n:6);
+        n := 2 * i;
+        g := Gn(n);
+        if ((g mod 2) = 0) then
+            begin
+                k := g div 2;
+            end
+        else
+            begin
+                k := (g - 1) div 2;
+            end;
+        WriteLn;
+        WriteLn('n = ',n);
+        WriteLn('G(', n, ') = ', g);
+        WriteLn;
+        for j := 0 to k do
+        begin
+            s1 := Si(j);
+            d  :=  g - j;
+            s2 := Si(d);
+            WriteLn('s(', j:2, ') = ', s1:4, '  <=>  s(', d:2, ') = ', s2:4);
+        end;
+        WriteLn;
+        WriteLn('=========================================');
     end
 end.
 
