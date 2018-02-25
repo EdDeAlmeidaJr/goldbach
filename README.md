@@ -38,7 +38,7 @@ This is **collaborative research**. So, if you find a way to improve the code or
   
   - BSc - Federal University of Rio de Janeiro (1984)
   - MSc - (Differential Geometry) Federal Universityof Ceará & Westfield College (1995)
-  - PhD - (Dynamical Systems) IMPA & Massachusetts Institute of TEchnology (2001)
+  - PhD - (Dynamical Systems) IMPA & Massachusetts Institute of Technology (2001)
   - Brazilian, 50 years old, married to Daiely, father to Dionysio (3-yo), writer with three published books.
   - Email: edvaldoajunior@gmail.com
   - Website: http://eddealmeida.herokuapp.com
