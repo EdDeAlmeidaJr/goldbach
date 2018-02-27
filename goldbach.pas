@@ -5,7 +5,8 @@ uses
 
 var
 	myoption,
-	myvalue     : Integer;
+	myvalue,
+	mymod      : Integer;
 
 function Si(i: Integer) : Integer;
 begin
@@ -69,13 +70,26 @@ end;
 
 begin
     myoption := StrToInt(ParamStr(1));
-    if ((myoption = 1) and (ParamStr(2) = '')) then 
-      myvalue := 20
-    else
-      myvalue := StrToInt(ParamStr(2));
+
+    case myoption of
+    1,2 :
+        begin
+			if ((myoption = 1) and (ParamStr(2) = '')) then 
+			    myvalue := 20
+			else
+			    myvalue := StrToInt(ParamStr(2));
+
+			mymod := myvalue mod 2;
+
+			if (mymod = 1) then myvalue := myvalue + 1;        	
+        end
+    end;
+
     case myoption of 
     1 : Tables(myvalue);
-    else WriteLn('Command not found!');
+    2 : Table(myvalue);
+    else
+        WriteLn('Command not found!');
     end;
 end.
 
