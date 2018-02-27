@@ -1,5 +1,12 @@
 program Gold01;
 
+uses 
+	SysUtils;
+
+var
+	myoption,
+	myvalue     : Integer;
+
 function Si(i: Integer) : Integer;
 begin
     Si := 3 + (2 * i);
@@ -11,16 +18,19 @@ begin
     Gn := (n - 6) div 2;
 end;
 
+
 function MaxIndex(gn: Integer): Integer;
 begin
 	MaxIndex := (gn - 1) div 2;
 	if ((gn mod 2) = 0) then MaxIndex := gn div 2;
 end;
 
+
 function IsPrime(n: Integer) : Boolean;
 begin
 	IsPrime := True;
 end;
+
 
 procedure Table(n: Integer);
 var
@@ -36,6 +46,7 @@ begin
 		WriteLn('s(', j:2, ') = ', s1:4, '  <=>  s(', d:2, ') = ', s2:4);
 	end
 end;
+
 
 procedure Tables(n: Integer);
 var
@@ -57,7 +68,14 @@ begin
 end;
 
 begin
-  
-  Tables(ParamStr());
+    myoption := StrToInt(ParamStr(1));
+    if ((myoption = 1) and (ParamStr(2) = '')) then 
+      myvalue := 20
+    else
+      myvalue := StrToInt(ParamStr(2));
+    case myoption of 
+    1 : Tables(myvalue);
+    else WriteLn('Command not found!');
+    end;
 end.
 
