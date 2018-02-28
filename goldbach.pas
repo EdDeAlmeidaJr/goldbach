@@ -3,6 +3,14 @@ program Gold01;
 uses 
 	SysUtils;
 
+type 
+
+	TPrimeFactor = record
+		factor,
+		exponent: Integer;
+		next: ^TPrimeFactor;
+	end;
+
 var
 	myoption,
 	myvalue,
