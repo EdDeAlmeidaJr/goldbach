@@ -28,9 +28,25 @@ end;
 
 
 function IsPrime(n: Integer) : Boolean;
+var
+	i, div2, rem : Integer;
 begin
-	IsPrime := True;
+	IsPrime := true;
+	div2 := n div 2;
+	i := 3;
+	while (i < div2) do
+	begin
+	    rem := n mod i;
+	    if (rem = 0) then
+	    begin
+	        IsPrime := false;
+	        break;
+	    end;
+	    i := i + 2;
+	end;
 end;
+
+
 
 
 procedure Table(n: Integer);
@@ -44,7 +60,17 @@ begin
 		s1 := Si(j);
 		d  :=  g - j;
 		s2 := Si(d);
-		WriteLn('s(', j:2, ') = ', s1:4, '  <=>  s(', d:2, ') = ', s2:4);
+		Write('s(', j:2, ') = ', s1:4);
+		if IsPrime(s1) then
+		    Write(' P ')
+		else
+		    Write('   ');
+		Write('  <=>  ');
+		Write('s(', d:2, ') = ', s2:4);
+		if IsPrime(s2) then
+		    WriteLn(' P ')
+		else
+		    WriteLn;
 	end
 end;
 
